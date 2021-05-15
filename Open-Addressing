@@ -192,9 +192,9 @@ data = [ (i,i) for i in range(1000) ];
 oh1 = OAHashTable(600);
 oh2 = OAQDHashTable(600);
 oh3 = OADBHashTable(600);
-#oh.put("name","YN_TH");
-#oh.put("name2","YN_TH2");
-#oh.put("name3","YN_TH3");
+#oh.put("name","Skitty1");
+#oh.put("name2","Skitty2");
+#oh.put("name3","Skitty3");
 
 for e in data:
     oh1.put(e[0],e[1]);
